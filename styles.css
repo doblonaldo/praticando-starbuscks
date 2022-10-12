@@ -68,3 +68,37 @@ body{
     color: white;
     background-color: black;
 }
+
+.banner__img{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2em;
+}
+
+.info{
+    border: 1px solid black;
+    margin: auto;
+    padding: 2em 0;
+    background-color: #d4e9e2 !important;
+}
+
+.info__texto{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info__texto--in{
+    line-height: 25px;
+    margin-bottom: 2em;
+}
+
+.info__texto--saiba{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 1px  solid black;
+    border-radius: 25px;
+    padding: .5em 1em;
+
+}
