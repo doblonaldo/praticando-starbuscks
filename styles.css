@@ -1,0 +1,70 @@
+body{
+    font-family:'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.cabecalho{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4em;
+    padding-right: 4em;
+    height: 100%;
+    border-bottom: 1px solid black;
+    box-shadow: .2px .2px  ;
+}
+
+.cabecalho__principal-direita{
+    display: flex;
+}
+
+.cabecalho__logo{
+    width: 51px;
+    height: 51px;
+    padding-right: 1em;
+}
+
+.cabecalho__menu-lista{
+    display: flex;
+}
+
+.cabecalho__item{
+    padding: 1em 1em;
+    font-weight: 700;
+}
+
+.cabecalho__img{
+    width: 120px;
+}
+
+.cabecalho__principal-esquerda{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__encontre--loja{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho__tabular{
+    padding: 1.5em .5em;
+}
+.cabecalho__entrar, .cabecalho__participar{
+    text-decoration: none;
+    padding: .5em 1em;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.cabecalho__entrar{
+    font-weight: 700;
+    color: black;
+}
+
+.cabecalho__participar{
+    font-weight: 700;
+    color: white;
+    background-color: black;
+}
