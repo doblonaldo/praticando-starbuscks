@@ -69,17 +69,25 @@ body{
     background-color: black;
 }
 
+
+.container{
+    margin: 0em 15em;
+    max-width: 1440px;
+}
+
 .banner__img{
+    margin-left: auto;
+    margin-right: auto  ;
     display: flex;
     justify-content: space-around;
     padding-bottom: 2em;
 }
 
 .info{
-    border: 1px solid black;
     margin: auto;
     padding: 2em 0;
     background-color: #d4e9e2 !important;
+    margin-bottom: 2em;
 }
 
 .info__texto{
@@ -101,4 +109,60 @@ body{
     border-radius: 25px;
     padding: .5em 1em;
 
+}
+.download__app{
+    display: flex;
+    align-items: center;
+    background-color: #d4e9e2 !important;
+}
+
+.download__app--img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.download__app--titulo{
+    font-size: 1.4em;
+    line-height: 110%;
+    margin-bottom: 1em;
+}
+
+.download__app--down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.download__app--texto{
+    padding: 0em 5vw;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.75;
+}
+
+.download__app--link{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-top: 2em;
+    padding: 0.75em 2em;
+    border-radius: 25px;
+}
+
+.container__saboreie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.saboreie__mais--texto{
+
+}
+
+.saboreie__mais--img{
+    display: block;
+    width: 100%;
 }
