@@ -156,13 +156,22 @@ body{
 .container__saboreie{
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .saboreie__mais--texto{
+    margin: 6em 16em;
+}
 
-}   
+.saboreie__titulo{
+    font-size: 1.4rem;
+    margin: 0 0 2.4rem 0;
+    text-align: center;
+    padding-top: 4em;
+}
 
 .saboreie__mais--img{
-    display: block;
     width: 100%;
+    background: url(./img/featured-drinks.jpg) no-repeat center/cover;
 }
