@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+/*inicio-navbar-css*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 6px 0px 0px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 6px 0px 0px rgba(0,0,0,0);
+    padding: 45px;
+}
+
+.navbar__left{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.navbar__left-logo{
+    width: 51px;
+}
+
+.navbar__left--lista{
+    display: flex;
+}
+
+.navbar__left--lista-item{      
+    padding-left: 30px;
+    font-weight: 900;
+}
+
+.navbar__right{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.navbar__right-findStore{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    font-weight: 900;
+}
+
+.navbar__right-findStore svg{
+    margin-right: 10px;
+}
+
+.navbar__right-buttons-list{
+    display: flex;
+}
+.navbar__right-buttons-list li{
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    font-weight: 900;
+}
+
+.navbar__right-buttons-sigIn:hover{
+    background-color: rgba(0,0,0,.06);
+}
+
+.navbar__right-buttons-joinNow{
+    color: white;
+    background-color: black;
+}
+
+.navbar__right-buttons-joinNow:hover{
+    background-color: rgba(0,0,0,.7);
+}
+
+.mouse_h:hover{
+    color: #00754a;
+}
+
+
+/*fim-navbar-css*/
