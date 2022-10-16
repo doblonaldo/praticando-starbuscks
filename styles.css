@@ -1,3 +1,7 @@
+:root{
+    font-weight: 300;
+}
+
 body{
     margin: 0px;
     font-family: "SoDo Sans SemiBold", Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -28,9 +32,10 @@ body{
     display: flex;
 }
 
-.navbar__left--lista-item{      
+.navbar__left--lista-item{    
+    text-transform: uppercase;  
     padding-left: 30px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .navbar__right{
@@ -78,5 +83,111 @@ body{
     color: #00754a;
 }
 
-
 /*fim-navbar-css*/
+
+/*inicio-container-css*/
+.container{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #e2fcf1;
+    margin-top: 35px;
+}
+
+.container__produtos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.container__img {
+    display: flex;
+    align-items: center;
+    
+}
+
+.container__img img{
+    max-width: 100%;
+}
+
+.container__img, .container__text{
+    max-width: 50%;
+}
+
+.container__text{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.container__text--center{
+    text-align: center;
+    padding-left: 6em;
+}
+
+
+.container__text--titulo{
+    font-weight: 700;
+    font-size:32px;
+    margin-bottom: 24px;
+}
+
+.container__text--titulo--big{
+    font-size: 68px;
+    margin-bottom: 50px;
+}
+
+.container__text--descricao{
+    font-size: 24px;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+.container__text--lista div{
+    display: flex;
+    align-items: center;
+}
+
+.container__text--icon img{
+    background-repeat: no-repeat;
+    width:7px;
+    margin-right: 1em;
+}
+
+.container__text--lista{
+    font-size: 22px;
+    line-height: 1.5em;
+}
+.container__text--buttons{
+    margin-top: 2em;
+}
+.container__text--buttons-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+
+    border: 1px solid black;
+    padding: .35em 1em;
+    border-radius: 25px;
+}
+
+.container__text--buttons-link:hover{
+    background-color: rgba(30,57,50,.1);
+}
+
+.container__produtos--tree{
+    background-color: #006241;
+    color: white;
+}
+
+.button__white{
+    border: white 1px solid;
+    color: white;
+}
+
+.container__produtos--noSpace{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+/*fim-container-css*/
