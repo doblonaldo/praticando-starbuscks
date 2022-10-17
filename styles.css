@@ -207,9 +207,92 @@
 
 /*inicio-rodape-css*/
 
+
 .rodape{
     margin-top: 2em;
     -webkit-box-shadow: -1px -8px 4px -2px rgba(0,0,0,0.23);
     -moz-box-shadow: -1px -8px 4px -2px rgba(0,0,0,0.23);
     box-shadow: -1px -8px 4px -2px rgba(0,0,0,0.23);
+}
+
+.rodape__main{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.rodape__container{
+    display: flex;
+    padding-top: 2em;
+    -webkit-box-shadow: 0px 6px 4px -2px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0px 6px 4px -2px rgba(0,0,0,0.23);
+    box-shadow: 0px 6px 4px -2px rgba(0,0,0,0.23);
+}
+
+.container__rodape-item{
+    max-width: 230px;
+}
+
+.container__rodape-item-space-left{
+    margin-left: 4em;
+}
+
+.rodape__titulo{
+    font-size: 22px;
+    color: #000000;
+}
+
+.rodape__nav--list{
+    margin-top: 4em;
+    color: rgba(0,0,0,.58);
+}
+
+.rodape__nav--list li{
+    margin-bottom: 1.75em;
+    line-height: 1.75em;
+}
+
+.rodape__nav--list li:hover {
+    color: rgba(0,0,0,.87);
+}
+
+.rodape__social{
+    max-width: 1440px;
+    margin: auto;
+}
+
+.rodape__container--social{
+    margin-top: 2.25em;
+    display: flex;
+}
+
+.rodape__social--item{
+    margin-right: 1.75em;
+    margin-bottom: 2em;
+}
+
+.rodape__termos{
+    max-width: 1440px;
+    margin: auto;
+}
+.container__termos--principal ul{
+    display: flex;
+}
+
+.container__termos--principal ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.container__termos--principal--itemSpace{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.border__right{
+    border-right: 1px solid black;
+}
+.container__termos--texto{
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    color:rgba(0,0,0,.58);
 }
