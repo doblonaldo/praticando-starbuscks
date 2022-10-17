@@ -229,6 +229,10 @@
 .descricao__text a {
     color: black;
 }
+
+.descricao__text a:hover{
+    text-decoration: none;
+}
 /*fim-container-css*/
 
 /*inicio-rodape-css*/
@@ -269,15 +273,18 @@
 
 .rodape__nav--list{
     margin-top: 4em;
-    color: rgba(0,0,0,.58);
 }
 
 .rodape__nav--list li{
     margin-bottom: 1.75em;
     line-height: 1.75em;
 }
+.rodape__nav--list a{
+    text-decoration: none;
+    color: rgba(0,0,0,.58);
+}
 
-.rodape__nav--list li:hover {
+.rodape__nav--list a:hover {
     color: rgba(0,0,0,.87);
 }
 
@@ -307,6 +314,10 @@
 .container__termos--principal ul li a{
     color: #000000;
     text-decoration: none;
+}
+
+.container__termos--principal ul li a:hover{
+    text-decoration: underline;
 }
 
 .container__termos--principal--itemSpace{
