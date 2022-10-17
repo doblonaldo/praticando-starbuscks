@@ -7,18 +7,24 @@
 
 /*inicio-navbar-css*/
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 6px 0px 0px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px #000000, 0px 6px 0px 0px rgba(0,0,0,0);
     padding: 45px;
 }
 
+
+.navbar__container{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar__left{
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    
 }
 
 .navbar__left-logo{
@@ -38,7 +44,7 @@
 .navbar__right{
     display: flex;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .navbar__right-findStore{
