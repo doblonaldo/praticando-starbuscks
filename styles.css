@@ -76,6 +76,10 @@
     border: 1px solid black;
     font-weight: 900;
 }
+.navbar__right-buttons-sigIn a{
+    text-decoration: none;
+    color: #000000;
+}
 
 .navbar__right-buttons-sigIn:hover{
     background-color: rgba(0,0,0,.06);
@@ -84,6 +88,10 @@
 .navbar__right-buttons-joinNow{
     color: white;
     background-color: black;
+}
+.navbar__right-buttons-joinNow a{
+    text-decoration: none;
+    color: white;
 }
 
 .navbar__right-buttons-joinNow:hover{
